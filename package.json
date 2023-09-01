@@ -1,5 +1,11 @@
 {
   "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
   "name": "BQP Website FE",
   "lockfileVersion": 3,
   "requires": true,
@@ -16,5 +22,11 @@
         "react-router-dom": "^6.15.0"
       }
     }
+  },
+  "dependencies": {
+    "react-router-dom": "^6.15.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
   }
 }
